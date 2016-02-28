@@ -2,6 +2,7 @@
 
 # install docker
 yum -y update
+yum -y install net-tools
 curl -fsSL https://get.docker.com/ | sh
 
 #tee /etc/yum.repos.d/docker.repo <<-'EOF'
