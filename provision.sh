@@ -19,3 +19,5 @@ curl -fsSL https://get.docker.com/ | sh
 service docker start
 
 docker run hello-world
+
+yum -y install git
